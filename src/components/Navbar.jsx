@@ -29,7 +29,7 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 border border-[#33353F] bg-[#121212] bg-opacity-100">
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-10 border border-[#33353F] border-l-transparent border-r-transparent bg-[#121212] bg-opacity-100">
       <div className="flex container flex-wrap items-center justify-between mx-auto px-4 py-3 ">
         <Link href={"/"} className="text-2xl md:text-5xl">
           <Image

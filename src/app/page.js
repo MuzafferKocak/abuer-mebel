@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
 import ParticlesBackground from "@/components/BackgroundParticles";
 import ImageSlider from "@/components/ImageSlider";
+import ProductCard from "@/components/ProductCard";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,9 +12,11 @@ export default function Home() {
       </div>
       <Navbar />
 
-      <div className="relative container mt-20 mx-auto py-6 px-6 max-w-full ">
+      <div className="relative container mt-4 mx-auto py-6 px-6 max-w-full ">
         <ImageSlider/>
+        <ProductCard/>
       </div>
+      <Footer/>
     </main>
   );
 }

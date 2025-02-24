@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "/images/slider/pic1.jpg",
-    "/images/slider/pic2.jpg",
-    "/images/slider/pic3.jpg",
+    "/images/slider/img11.jpg",
+    "/images/slider/img3.jpg",
+    "/images/slider/img8.jpg",
+    "/images/slider/img2.jpg",
   ];
 
   const nextSlide = () => {
@@ -38,7 +39,7 @@ const ImageSlider = () => {
               key={index}
               src={image}
               alt={`Slide ${index}`}
-              className="w-full h-[450px] object-cover flex-shrink-0 rounded-lg"
+              className="w-full h-[450px] object-fill flex-shrink-0 rounded-lg"
             />
           ))}
         </div>

@@ -5,10 +5,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="relative footer border z-0 border-t-[#33353F] border-l-transparent border-r-transparent text-white bg-[#121212] bg-opacity-100">
-      <div className="container p-4 flex items-center justify-between gap-4">
-        <div className="w-12 h-12 rounded-full overflow-hidden ">
+      <div className="container p-4 flex items-center justify-center gap-4">
+      <p className="text-slate-600">
+          &copy; {currentYear} All rights reserved.
+        </p>
+        <div className="w-12 h-12 border-2 border-amber-400 rounded-full overflow-hidden ">
           <Image
-            src="/images/"
+            src="/images/logo1.jpg"
             alt="Logo"
             width={48}
             height={48}
@@ -20,9 +23,7 @@ const Footer = () => {
           />
         </div>
 
-        <p className="text-slate-600">
-          &copy; {currentYear} All rights reserved.
-        </p>
+        
       </div>
     </footer>
   );

@@ -30,10 +30,11 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <nav className="fixed mx-auto top-0 left-0 right-0 z-10 border border-[#33353F] border-l-transparent border-r-transparent bg-[#121212] bg-opacity-100">
-      <div className="flex container flex-wrap items-center justify-between mx-auto px-4 py-3 ">
-        <Link href={"/"} className="text-2xl md:text-5xl">
+      <div className="relative flex container flex-wrap items-center justify-between mx-auto px-4 py-3 ">
+      
+        <Link href={"/"} className="text-2xl md:text-5xl border-2 border-amber-400 rounded-full">
           <Image
-            src="/images/"
+            src="/images/logo1.jpg"
             alt="logo"
             width={48}
             height={48}
@@ -44,6 +45,10 @@ const Navbar = () => {
             }}
           />
         </Link>
+        
+
+        <h2 className="absolute left-1/2 transform -translate-x-1/2 text-amber-400 font-extrabold">Abuer Mebel Almaty</h2>
+        
         
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

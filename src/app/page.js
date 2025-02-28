@@ -3,6 +3,7 @@ import ParticlesBackground from "@/components/BackgroundParticles";
 import ImageSlider from "@/components/ImageSlider";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
+import HeroBanner from "@/components/HeroBanner";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="relative container mt-4 mx-auto py-6 px-6 max-w-full ">
         <ImageSlider/>
         <ProductCard/>
+        <HeroBanner/>
       </div>
       <Footer/>
     </main>

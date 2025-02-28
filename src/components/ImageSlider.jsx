@@ -27,7 +27,7 @@ const ImageSlider = () => {
 
   return (
     <section className="py-10">
-      <div className="relative w-full max-w-6xl mx-auto overflow-hidden mt-12 mb-10 ">
+      <div className="relative w-full max-w-6xl mx-auto overflow-hidden mt-10 mb-4 ">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{

@@ -4,6 +4,7 @@ import ImageSlider from "@/components/ImageSlider";
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import HeroBanner from "@/components/HeroBanner";
+import LivingBanner from "@/components/LivingBanner";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <ImageSlider/>
         <ProductCard/>
         <HeroBanner/>
+        <LivingBanner/>
       </div>
       <Footer/>
     </main>

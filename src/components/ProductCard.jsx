@@ -7,49 +7,49 @@ import { motion } from "framer-motion";
 const products = [
   {
     id: 1,
-    title: "Küche 1",
+    title: "жоба 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Заманауи және функционалды ас үй шешімі.",
     rating: 5.0,
     image: "/images/products/img5.jpg",
   },
   {
     id: 2,
-    title: "Küche 2",
+    title: "жоба 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Жеңіл дизайн, максималды ыңғайлылық.",
     rating: 5.0,
     image: "/images/products/img7.jpg",
   },
   {
     id: 3,
-    title: "Küche 3",
+    title: "жоба 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Классикалық стильдегі жайлы ас үй.",
     rating: 5.0,
     image: "/images/products/img9.jpg",
   },
   {
     id: 4,
-    title: "Küche 4",
+    title: "жоба 4",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Жайлылық пен стильді үйлестіретін жатын бөлме.",
     rating: 5.0,
     image: "/images/products/img4.jpg",
   },
   {
     id: 5,
-    title: "Küche 4",
+    title: "жоба 5",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Кең әрі ыңғайлы кіреберіс, үйіңізге сән қосады.",
     rating: 5.0,
     image: "/images/products/img1.jpg",
   },
   {
     id: 6,
-    title: "Küche 4",
+    title: "жоба 6",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, alias.",
+      "Заманауи және функционалды кіреберіс шешімі.",
     rating: 5.0,
     image: "/images/products/img10.jpg",
   },
@@ -72,7 +72,7 @@ const ProductCard = () => {
   return (
     <section id="cart" className="py-20">
       <h2 className="text-4xl font-bold text-center text-white mb-2 mt-2">
-        Products
+      біздің жобаларымыз
       </h2>
       <div className="flex justify-center">
         <motion.div
@@ -96,12 +96,12 @@ const ProductCard = () => {
             >
               <Card
                 key={product.id}
-                className="w-full bg-zinc-900 p-3 rounded-2xl shadow-2xl"
+                className="w-[400px] h-[480px] md:w-[420px] md:h-[480px] max-w-full bg-zinc-900 p-3 rounded-2xl shadow-2xl"
               >
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-[300px] object-fill rounded-lg"
+                  className="w-full h-[280px] md:h-[300px] object-fill rounded-lg"
                 />
                 <h5 className="text-xl font-semibold tracking-tight text-gray-300">
                   {product.title}
@@ -110,7 +110,7 @@ const ProductCard = () => {
                 <div className="flex items-center">
                   <span className="text-white ">{product.description}</span>
                 </div>
-                <div className="mb-1 mt-2 flex items-center ">
+                <div className="mb-1 mt-2 flex items-center py-2 ">
                   {[...Array(5)].map((_, index) => (
                     <svg
                       key={index}

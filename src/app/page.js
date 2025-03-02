@@ -5,6 +5,8 @@ import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import HeroBanner from "@/components/HeroBanner";
 import LivingBanner from "@/components/LivingBanner";
+import About from "@/components/About";
+import EmailSection from "@/components/EmailSection";
 
 export default function Home() {
   return (
@@ -16,9 +18,11 @@ export default function Home() {
 
       <div className="relative container mt-4 mx-auto py-6 px-6 max-w-full ">
         <ImageSlider/>
+        <About/>
+        <LivingBanner/>
         <ProductCard/>
         <HeroBanner/>
-        <LivingBanner/>
+        <EmailSection/>
       </div>
       <Footer/>
     </main>

@@ -53,7 +53,7 @@ const Navbar = () => {
           className="text-2xl md:text-5xl border-2 border-amber-400 rounded-full"
         >
           <Image
-            src="/images/logo1.jpg"
+            src="/images/logo.JPG"
             alt="logo"
             width={48}
             height={48}

@@ -11,7 +11,7 @@ const Footer = () => {
         </p>
         <div className="w-12 h-12 border-2 border-amber-400 rounded-full overflow-hidden ">
           <Image
-            src="/images/logo.JPG"
+            src="/images/logo.jpg"
             alt="Logo"
             width={48}
             height={48}

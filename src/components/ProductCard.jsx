@@ -11,7 +11,7 @@ const products = [
     description:
       "Заманауи және функционалды ас үй шешімі.",
     rating: 5.0,
-    image: "/images/products/img5.jpg",
+    image: "/images/products/product3.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const products = [
     description:
       "Жеңіл дизайн, максималды ыңғайлылық.",
     rating: 5.0,
-    image: "/images/products/img7.jpg",
+    image: "/images/products/product5.jpg",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const products = [
     description:
       "Классикалық стильдегі жайлы ас үй.",
     rating: 5.0,
-    image: "/images/products/img9.jpg",
+    image: "/images/products/product6.jpg",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const products = [
     description:
       "Жайлылық пен стильді үйлестіретін жатын бөлме.",
     rating: 5.0,
-    image: "/images/products/img4.jpg",
+    image: "/images/products/product2.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const products = [
     description:
       "Кең әрі ыңғайлы кіреберіс, үйіңізге сән қосады.",
     rating: 5.0,
-    image: "/images/products/img1.jpg",
+    image: "/images/products/product1.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const products = [
     description:
       "Заманауи және функционалды кіреберіс шешімі.",
     rating: 5.0,
-    image: "/images/products/img10.jpg",
+    image: "/images/products/product7.jpg",
   },
 ];
 

@@ -33,7 +33,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setActive(null); 
+      setTimeout(()=> setActive(null), 800); 
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -95,8 +95,8 @@ const Navbar = () => {
                   initial="default"
                   animate={active === link.path ? "active" : "default"}
                   variants={variants}
-                  transition={{ duration: 0.3, ease: "easeInOut" }}
-                  className="h-[3px] bg-amber-400 mt-2 mr-3 absolute left-0 bottom-0 w-full"
+                  transition={{ duration: 0.5, ease: "easeInOut" }}
+                  className="h-[4px] bg-cyan-400 mt-2 mr-3 absolute left-0 bottom-0 w-full"
                 ></motion.div>
               </li>
             ))}

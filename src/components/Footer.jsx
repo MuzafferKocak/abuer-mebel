@@ -10,7 +10,7 @@ const Footer = () => {
           &copy; {currentYear} All rights reserved.
         </p>
         <div className="w-12 h-12 border-2 border-amber-400 rounded-full overflow-hidden ">
-          <img
+          <Image
             src="/images/logo1.jpg"
             alt="Logo"
             width={48}

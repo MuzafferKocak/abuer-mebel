@@ -52,7 +52,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl border-2 border-amber-400 rounded-full"
         >
-          <img
+          <Image
             src="/images/logo1.jpg"
             alt="logo"
             width={48}

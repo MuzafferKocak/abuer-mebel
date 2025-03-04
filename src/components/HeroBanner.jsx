@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <section className="relative w-full h-[450px] py-5">
+    <section className="relative w-full h-[500px] py-5">
       <img
         src="/images/küche.jpg"
         alt="küche"

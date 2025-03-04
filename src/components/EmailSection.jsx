@@ -58,7 +58,7 @@ const EmailSection = () => {
           жасайық!
         </p>
         <p className="text-[#adb7be] mb-4 max-w-md">
-          Біздің инстаграмға кіруді ұмытпаңыз
+          Біздің инстаграмға кіруді ұмытпаңыз...
         </p>
         <div className="socials flex flex-row gap-4 my-5">
           <Link

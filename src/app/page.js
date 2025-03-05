@@ -7,6 +7,7 @@ import HeroBanner from "@/components/HeroBanner";
 import LivingBanner from "@/components/LivingBanner";
 import About from "@/components/About";
 import EmailSection from "@/components/EmailSection";
+// import PriceCalculator from "@/components/PriceCalculator";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <LivingBanner/>
         <ProductCard/>
         <HeroBanner/>
+        {/* <PriceCalculator/> */}
         <EmailSection/>
       </div>
       <Footer/>

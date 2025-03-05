@@ -38,7 +38,7 @@ const EmailSection = () => {
   };
   return (
     <section
-      className="relative grid md:grid-cols-2 my-16 md:my-16 py-24 gap-4"
+      className="relative grid md:grid-cols-2 my-16 md:my-16 py-20 gap-4"
       id="contact"
     >
       {" "}
@@ -77,7 +77,10 @@ const EmailSection = () => {
               <FaFacebook className="text-[#1877F2] w-11 h-11 hover:scale-110 transition-all duration-300" />
             </div>
           </Link>
-          <Link href="https://wa.me/77075103031?text=Сәлеметсізбе%2C%20өнім%20туралы%20ақпарат%20алғым%20келеді" target="_blank">
+          <Link
+            href="https://wa.me/77075103031?text=Сәлеметсізбе%2C%20өнім%20туралы%20ақпарат%20алғым%20келеді"
+            target="_blank"
+          >
             <div className="bg-[#121212] rounded-lg flex items-center justify-center">
               <FaWhatsapp className="text-[#25D366] w-11 h-11 hover:scale-110 transition-all duration-300" />
             </div>
